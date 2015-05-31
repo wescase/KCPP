@@ -1,0 +1,81 @@
+html body{
+	height: 100%;
+	width: 100%;
+	background-image: url("images/background.png");
+	background-height: 100%;
+	background-width: 100%;
+	background-repeat: no-repeat;
+}
+
+.jumbotron{
+	text-align: center;
+}
+
+#title {
+	color: white;
+	text-align: center;
+}
+
+#navBar{
+	color: white;
+	background: black;
+}
+
+.navList li{
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.playersHeader{
+	text-align: center;
+	color: white;
+}
+
+.playersRowOne{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+}
+
+.playerOneImg, .playerTwoImg, .playerThreeImg{
+	height: 100px;
+	width: 10%;
+}
+
+.playersRowTwo{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+}
+
+.playerFourImg, .playerFiveImg, .playerSixImg{
+	height: 100px;
+	width: 10%;
+}
+
+.playersRowThree{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+}
+
+.playerSevenImg, .playerEightImg, .playerNineImg{
+	height: 100px;
+	width: 10%;
+}
+
+#editBio{
+	text-align: center;
+	color: white;
+}
+
+.newInfo{
+	height: 150px;
+	width: 300px;
+}
