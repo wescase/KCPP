@@ -1,18 +1,7 @@
 <h1 class='playersHeader'>The Players</h1>
 <div id='playersContainer'>
-	<div class='playersRowOne'>
-		<img class='playerOneImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerTwoImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerThreeImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-	</div>
-	<div class='playersRowTwo'>
-		<img class='playerFourImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerFiveImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerSixImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-	</div>
-	<div class='playersRowThree'>
-		<img class='playerSevenImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerEightImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-		<img class='playerNineImg' src='http://strabo.com/gallery/albums/wallpaper/foo_wallpaper.sized.jpg'></img>
-	</div>
+	<!-- <div class='playersRowOne' ng-repeat='user in users'> -->
+	<bio-directive class="playersRowOne"  ng-repeat='user in users' the-user="user"></bio-directive>
+	<!-- </div> -->
+
 </div>

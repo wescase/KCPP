@@ -2,13 +2,14 @@
 <html lang='en' ng-app='kcpp'>
 <head>
 	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css">
 	<title>KCPP</title>
 	<nav id='navBar'>
 		<ul class='navList'>
-			<li>Home</li>
-			<li>The Players</li>
-			<li>About</li>
-			<li>Contact</li>
+			<li><a href='http://localhost:8080/#/home'>Home</a></li>
+			<li><a href='http://localhost:8080/#/thePlayers'>The Players</a></li>
+			<li><a href='http://localhost:8080/#/about'>About</a></li>
+			<li><a href='http://localhost:8080/#/contact'>Contact</a></li>
 		</ul>
 	</nav>
 </head>
@@ -32,5 +33,9 @@
 	<script src="animations.js"></script>
 	<script src="home/homeCtrl.js"></script>
 	<script src="thePlayers/thePlayersCtlr.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+	<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+	<script src="bower_components/angular-material/angular-material.min.js"></script>
+	<script src="directives/bioDirective.js"></script>
 </body>
 </html>

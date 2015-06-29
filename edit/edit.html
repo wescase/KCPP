@@ -2,8 +2,8 @@
 	<h1>Tell Us About Yourself!</h1>
 	<h3>Who are you?</h3>
 	<div>
-		<input class='newInfo'/>
+		<input class='newInfo' ng-model='newInfo'/>
 		<br>
-		<button>Submit</button>
+		<button ng-click='personInfo(newInfo)'>Submit</button>
 	</div>
 </div>

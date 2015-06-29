@@ -79,3 +79,21 @@ html body{
 	height: 150px;
 	width: 300px;
 }
+
+.info{
+	diplay: flex;
+	background: gray;
+	padding-right: 5%;
+	text-align: left;
+}
+
+.contentList{
+	color: white;
+	justify-content: left;
+	text-decoration: 
+}
+
+.picture{
+	height: 100px;
+	width: 100px;
+}
